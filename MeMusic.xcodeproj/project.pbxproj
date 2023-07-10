@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1160EEB82A58392F00B3F19D /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1160EEB72A58392F00B3F19D /* Carousel.swift */; };
+		1160EEBB2A58404400B3F19D /* OnboardingImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1160EEBA2A58404400B3F19D /* OnboardingImage.swift */; };
 		11C7CFCC2A56BEAE00F58E32 /* MeMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C7CFCB2A56BEAE00F58E32 /* MeMusicApp.swift */; };
 		11C7CFCE2A56BEAE00F58E32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C7CFCD2A56BEAE00F58E32 /* ContentView.swift */; };
 		11C7CFD02A56BEAF00F58E32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11C7CFCF2A56BEAF00F58E32 /* Assets.xcassets */; };
 		11C7CFD42A56BEAF00F58E32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11C7CFD32A56BEAF00F58E32 /* Preview Assets.xcassets */; };
 		11C7CFDD2A56CDDB00F58E32 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C7CFDC2A56CDDB00F58E32 /* Onboarding.swift */; };
 		11C7CFE62A56E4DD00F58E32 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C7CFE52A56E4DD00F58E32 /* Constants.swift */; };
-		11C7CFE92A56E81F00F58E32 /* OnboardingImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C7CFE82A56E81F00F58E32 /* OnboardingImage.swift */; };
+		11C7CFEB2A56F29300F58E32 /* CustomPageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C7CFEA2A56F29300F58E32 /* CustomPageIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1160EEB72A58392F00B3F19D /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
+		1160EEBA2A58404400B3F19D /* OnboardingImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingImage.swift; sourceTree = "<group>"; };
 		11C7CFC82A56BEAE00F58E32 /* MeMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11C7CFCB2A56BEAE00F58E32 /* MeMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeMusicApp.swift; sourceTree = "<group>"; };
 		11C7CFCD2A56BEAE00F58E32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -29,7 +33,7 @@
 		11C7CFE22A56D15300F58E32 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		11C7CFE32A56D16200F58E32 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		11C7CFE52A56E4DD00F58E32 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		11C7CFE82A56E81F00F58E32 /* OnboardingImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingImage.swift; sourceTree = "<group>"; };
+		11C7CFEA2A56F29300F58E32 /* CustomPageIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1160EEB92A58402800B3F19D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1160EEBA2A58404400B3F19D /* OnboardingImage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		11C7CFBF2A56BEAE00F58E32 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +74,7 @@
 		11C7CFCA2A56BEAE00F58E32 /* MeMusic */ = {
 			isa = PBXGroup;
 			children = (
+				1160EEB92A58402800B3F19D /* Model */,
 				11C7CFE72A56E80C00F58E32 /* Components */,
 				11C7CFE42A56E0FF00F58E32 /* Constants */,
 				11C7CFDF2A56D0E300F58E32 /* Resources */,
@@ -129,7 +142,8 @@
 		11C7CFE72A56E80C00F58E32 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				11C7CFE82A56E81F00F58E32 /* OnboardingImage.swift */,
+				11C7CFEA2A56F29300F58E32 /* CustomPageIndicator.swift */,
+				1160EEB72A58392F00B3F19D /* Carousel.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -206,8 +220,10 @@
 			files = (
 				11C7CFDD2A56CDDB00F58E32 /* Onboarding.swift in Sources */,
 				11C7CFCE2A56BEAE00F58E32 /* ContentView.swift in Sources */,
-				11C7CFE92A56E81F00F58E32 /* OnboardingImage.swift in Sources */,
+				11C7CFEB2A56F29300F58E32 /* CustomPageIndicator.swift in Sources */,
+				1160EEB82A58392F00B3F19D /* Carousel.swift in Sources */,
 				11C7CFCC2A56BEAE00F58E32 /* MeMusicApp.swift in Sources */,
+				1160EEBB2A58404400B3F19D /* OnboardingImage.swift in Sources */,
 				11C7CFE62A56E4DD00F58E32 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
