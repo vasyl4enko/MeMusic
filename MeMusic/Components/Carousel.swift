@@ -27,24 +27,25 @@ struct Carousel<Content: View, T: Identifiable >: View {
     @State var currentIndex: Int = 0
     
     var body: some View {
-        GeometryReader { proxy in
-            let width = proxy.size.width - (trailingSpace - spacing)
+            let width = UIScreen.main.bounds.width - (trailingSpace - spacing)
             HStack(spacing: 0) {
                 ForEach(list) { item in
                     content(item)
-                        .frame(width: proxy.size.width)
+                        .frame(width: UIScreen.main.bounds.width)
                 }
             }
-            .offset(x: (CGFloat(currentIndex) * -width) + offset)
+            .offset(x: (CGFloat(currentIndex-1) * -width) + offset)
             .gesture(
                 DragGesture()
                     .updating($offset, body: { value, out, _ in
+//                        print(proxy.size.height)
+
                         if (index == 0 && value.translation.width > 0) || (index == list.count - 1 && value.translation.width < 0)
                         {
                             return
                         }
                         out = value.translation.width
-                        print(value.translation.width)
+//                        print(value.translation.width)
                     })
                     .onEnded({ value in
                         let offsetX = value.translation.width
@@ -60,14 +61,14 @@ struct Carousel<Content: View, T: Identifiable >: View {
                         index = max(min(currentIndex + Int(roundedIndex), list.count - 1), 0)
                     })
             )
-            
-        }
+//        }
         .animation(.easeOut, value: offset == 0)
+        .drawingGroup()
     }
 }
-//
+
 //struct Carousel_Previews: PreviewProvider {
 //    static var previews: some View {
-//        Carousel()
+//        Carousel<Content: View, T: Identifiable>()
 //    }
 //}

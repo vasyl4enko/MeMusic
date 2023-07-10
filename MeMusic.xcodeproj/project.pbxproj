@@ -16,6 +16,9 @@
 		11C7CFDD2A56CDDB00F58E32 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C7CFDC2A56CDDB00F58E32 /* Onboarding.swift */; };
 		11C7CFE62A56E4DD00F58E32 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C7CFE52A56E4DD00F58E32 /* Constants.swift */; };
 		11C7CFEB2A56F29300F58E32 /* CustomPageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C7CFEA2A56F29300F58E32 /* CustomPageIndicator.swift */; };
+		11FAFE452A5C268500459A52 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11C7CFE32A56D16200F58E32 /* Poppins-SemiBold.ttf */; };
+		11FAFE462A5C268B00459A52 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11C7CFE12A56D13800F58E32 /* Poppins-Medium.ttf */; };
+		11FAFE472A5C268D00459A52 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11C7CFE22A56D15300F58E32 /* Poppins-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -206,8 +209,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11FAFE452A5C268500459A52 /* Poppins-SemiBold.ttf in Resources */,
+				11FAFE462A5C268B00459A52 /* Poppins-Medium.ttf in Resources */,
 				11C7CFD42A56BEAF00F58E32 /* Preview Assets.xcassets in Resources */,
 				11C7CFD02A56BEAF00F58E32 /* Assets.xcassets in Resources */,
+				11FAFE472A5C268D00459A52 /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
