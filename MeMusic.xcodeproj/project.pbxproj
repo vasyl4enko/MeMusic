@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1160EEB82A58392F00B3F19D /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1160EEB72A58392F00B3F19D /* Carousel.swift */; };
 		1160EEBB2A58404400B3F19D /* OnboardingImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1160EEBA2A58404400B3F19D /* OnboardingImage.swift */; };
+		11A5FD0B2A5D64C200970C67 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A5FD0A2A5D64C200970C67 /* Home.swift */; };
 		11C7CFCC2A56BEAE00F58E32 /* MeMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C7CFCB2A56BEAE00F58E32 /* MeMusicApp.swift */; };
 		11C7CFCE2A56BEAE00F58E32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C7CFCD2A56BEAE00F58E32 /* ContentView.swift */; };
 		11C7CFD02A56BEAF00F58E32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11C7CFCF2A56BEAF00F58E32 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		1160EEB72A58392F00B3F19D /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
 		1160EEBA2A58404400B3F19D /* OnboardingImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingImage.swift; sourceTree = "<group>"; };
+		11A5FD0A2A5D64C200970C67 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		11C7CFC82A56BEAE00F58E32 /* MeMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11C7CFCB2A56BEAE00F58E32 /* MeMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeMusicApp.swift; sourceTree = "<group>"; };
 		11C7CFCD2A56BEAE00F58E32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				11C7CFDC2A56CDDB00F58E32 /* Onboarding.swift */,
+				11A5FD0A2A5D64C200970C67 /* Home.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				1160EEB82A58392F00B3F19D /* Carousel.swift in Sources */,
 				11C7CFCC2A56BEAE00F58E32 /* MeMusicApp.swift in Sources */,
 				1160EEBB2A58404400B3F19D /* OnboardingImage.swift in Sources */,
+				11A5FD0B2A5D64C200970C67 /* Home.swift in Sources */,
 				11C7CFE62A56E4DD00F58E32 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
